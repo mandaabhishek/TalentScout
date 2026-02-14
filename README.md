@@ -15,6 +15,41 @@ TalentScout AI acts as your AI-powered recruiter, automating the entire candidat
 
 ---
 
+## What We Attempted to Solve
+We designed a two-stage pre-defined pre-interview screening system.
+
+Stage 1 — Resume & JD Alignment
+In Stage 1, the system analyzes the candidate’s resume against the job description .
+
+Instead of simple keyword matching, we evaluate:
+
+Technical alignment
+Skill coverage
+Missing skills
+Risk score
+Overall readiness score
+Only candidates meeting a defined threshold move to Stage 2.
+
+This ensures:
+
+Automated filtering
+Structured scoring
+Reduced bias
+Better job-description alignment
+
+## Stage 2 — audio Interaction
+In Stage 2, we simulate a structured audio interaction.
+
+Candidates answer pre-defined technical questions in real time. Their responses are converted from speech to text and evaluated for:
+
+Communication clarity
+Technical articulation
+Depth of understanding
+Structured thinking
+Only candidates who pass this stage proceed to a formal interview.
+
+--
+
 ## Key Features
 
 ### 📄 Smart Resume Screening
