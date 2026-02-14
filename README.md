@@ -71,9 +71,8 @@ No `npm install` required! This project uses CDN-based ES modules.
 2. Right-click `index.html` → "Open with Live Server"
 
 ### Option 2: Python HTTP Server
-```bash
 python -m http.server 8000
-# Open http://localhost:8000
+### Open http://localhost:8000
 
 Option 3: Node.js
 npx serve .
@@ -83,22 +82,21 @@ Usage
 3. Voice Interview → Answer behavioral + technical questions
 4. View Scorecard → Get detailed analysis & eligibility verdict
 Note: Allow microphone access when prompted.
-Project Structure
-📁 TalentScout AI/
-│
-├── 📄 index.html                 # Entry point (Import maps)
-├── 📄 index.tsx                  # React mounter
-├── 📄 App.tsx                    # Main app logic & state
-├── 📄 types.ts                   # TypeScript interfaces
-│
-📁 services/
-│   └── 📄 geminiService.ts       # AI logic & scoring algorithms
-│
-📁 components/
-    └── 📄 AnalysisResult.tsx     # Scorecard UI component
-
-Configuration
-
+---
+## Project Structure
+```
+TalentScout AI/
+├── index.html          (Entry point)
+├── index.tsx           (React mounter)  
+├── App.tsx             (Main logic)
+├── types.ts            (Interfaces)
+├── services/
+│   └── geminiService.ts (AI logic)
+└── components/
+    └── AnalysisResult.tsx (UI)
+```
+## Configuration
+```
 {
   "imports": {
     "react": "https://esm.sh/react@19",
@@ -106,10 +104,13 @@ Configuration
   }
 }
 
-Tailwind CDN (index.html):
-<script src="https://cdn.tailwindcss.com"></script>
+```
 
-Development
+Tailwind CDN (index.html):
+```
+<script src="https://cdn.tailwindcss.com"></script>
+```
+## Development
 
 Namdev Jangam: geminiService.ts (AI Logic & Parsing)
 Abhishek Manda: App.tsx (State, Timer, Flow)
@@ -124,9 +125,10 @@ AI Simulation Logic
 1. Resume: Set theory intersection of skills
 2. Behavioral: STAR keyword detection
 3. Technical: Terminology density scoring
-Contributors
+## Contributors
 <table> <tr> <td align="center"> <strong>Namdev Jangam</strong><br/> AI Logic & Parsing </td> <td align="center"> <strong>Abhishek Manda</strong><br/> App Flow & State </td> <td align="center"> <strong>Madhu Ch</strong><br/> UI Design & Animations </td> </tr> </table>
-📄 License
+
+## 📄License
 MIT License - Free for educational and hackathon use.
 
 
