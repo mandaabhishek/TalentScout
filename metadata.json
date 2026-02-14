@@ -1,0 +1,7 @@
+{
+  "name": "TalentScout AI",
+  "description": "An advanced recruitment evaluation engine using Gemini 3 Flash to analyze resumes, behavioral responses, and technical skills with deep analytical scoring and visualization.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
